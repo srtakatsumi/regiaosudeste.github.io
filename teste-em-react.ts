@@ -64,18 +64,18 @@
           <div class="carousel-inner">
             
               <div class="carousel-item active">
-                  <!-- <img class="d-block w-100" src=".../800x400?auto=yes&bg=777&fg=555&text=Primeiro Slide" alt="Primeiro Slide"> -->
-                <img class="img-fluid" style="height: auto; max-width: 100%" src="imagem/slide1.jpg" alt="Ponto turistico y">
+                  <!-- modelar a img do slide <img class="d-block w-100" style="height: auto; max-width: 100%" src="imagem/slide1.jpg" alt="Ponto turistico y">-->
+                <img class="d-block img-fluid" src="imagem/slide2.jpg" src="imagem/slide1.jpg" alt="Ponto turistico y">
               </div>
       
               <div class="carousel-item">
                 <!-- <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Segundo Slide" alt="Segundo Slide"> -->
-                <img  class="img-fluid" style="height: auto; max-width: 100%" src="imagem/slide2.jpg" alt="Ponto turistico x">
+                <img  class="d-block img-fluid" src="imagem/slide2.jpg" alt="Ponto turistico x">
               </div>
       
               <div class="carousel-item">
                   <!--<img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Terceiro Slide" alt="Terceiro Slide"> -->
-                <img class="img-fluid" style="height: auto; max-width: 100%"  src="imagem/slide3.jpg"  alt="Comida">
+                <img class="d-block img-fluid" src="imagem/slide3.jpg"  alt="Comida">
               </div>
           </div>
           
