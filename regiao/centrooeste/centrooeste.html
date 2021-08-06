@@ -17,43 +17,45 @@
 
 <body>
 
-    <section class="container">
-        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="./../../index.html">Jornada Brasil</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                     <span class="navbar-toggler-icon"></span>
-                   </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./../../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../norte/norte.html">Norte</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../nordeste/nordeste.html">Nordeste</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../sul/sul.html">Sul</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../sudeste/sudeste.html">Sudeste</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
-                        </li>
-
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
-                        <button class="btn btn-warning" type="submit">Procurar</button>
-                    </form>
-                </div>
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="color:rgb(114, 114, 114)">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                  <img src="./imagem/jornadabrasil.png" href="../index.html" alt="" width="100px" height="75px">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01" >
+                    <a class="navbar-brand" href="../index.html" style="color: black"></a>
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="./../../index.html" style="color: black">Inicio</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="../regiao/sul/sul.html" style="color: black">Sul</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../sudeste/sudeste.html" style="color: black">Sudeste</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../nordeste/nordeste.html"style="color: black">Nordeste</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="../norte/norte.html"style="color: black">Norte</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#"style="color: black">Contato</a>
+                  </li>
+                 
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn btn-warning my-2 my-sm-0" type="submit"style="color: black">Pesquisar</button>
+              </form>
             </div>
-        </nav>
+          </nav>
     </section>
+<section>
 
     <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="hover" onChange="test()">
         <ol class="carousel-indicators">
@@ -110,41 +112,41 @@
 
 
         <section class="container-fluid d-flex flex-wrap">
-            <!-- Card Bares e Restaurantes-->
             <div class="row row-cols-1 row-cols-md-3 g-4">
+                <!-- Card Bares e Restaurantes-->
                 <div class="col">
-                    <div class="card">
-                        <img src="imagem/restaurante.jpg" class="card-img-top" alt="Bares e Restaurantes">
-                        <div class="card-body">
-                            <h5 class="card-title">Bares e Restaurantes</h5>
-                            <p class="card-text">Está com fome? Um pestico? um prato maravilhoso? Clique em saiba mais para conhecer lugares que vão te deixar com agua na booca</p>
-                            <a href="./restaurante.html" class="btn btn-primary">Saiba mais!</a>
-                        </div>
+                  <div class="card h-100">
+                    <img src="imagem/restaurante.jpg" class="card-img-top" alt="Bares e Restaurantes">
+                    <div class="card-body">
+                      <h5 class="card-title">Bares e Restaurantes</h5>
+                      <p class="card-text">Está com fome? Um pestico? um prato maravilhoso? Clique em saiba mais para conhecer lugares que vão te deixar com agua na boca!!!</p>
+                      <a href="./restaurante.html" class="btn btn-primary">Saiba mais!</a>
                     </div>
+                  </div>
                 </div>
-
+            
                 <!-- Card Hoteis-->
                 <div class="col">
-                    <div class="card">
-                        <img src="imagem/hotel.jpg" class="card-img-top" alt="Hoteis">
-                        <div class="card-body">
-                            <h5 class="card-title">Hoteis</h5>
-                            <p class="card-text">Se aconhegue nas melhores hospedagens</p>
-                            <a href="./hotel.html" class="btn btn-primary">Saiba mais!</a>
-                        </div>
+                  <div class="card h-100">
+                    <img src="imagem/hotel.jpg" class="card-img-top" alt="Hoteis">
+                    <div class="card-body">
+                      <h5 class="card-title">Hoteis</h5>
+                      <p class="card-text">Se aconhegue nas melhores hospedagens</p>
+                      <a href="./hotel.html" class="btn btn-primary">Saiba mais!</a>
                     </div>
+                  </div>
                 </div>
-
+            
                 <!-- Card Pontos turisticos-->
                 <div class="col">
-                    <div class="card">
-                        <img src="imagem/pontoturistico.jpg" class="card-img-top" alt="Pontos turisticos">
-                        <div class="card-body">
-                            <h5 class="card-title">Pontos turisticos</h5>
-                            <p class="card-text">Não pode faltar um rolezinho não é mesmo? Vem vamos te mostrar os melhores lugares para tirar algumas fotinhas inesqueciveis.</p>
-                            <a href="./pontos-turisticos.html" class="btn btn-primary">Saiba mais!</a>
-                        </div>
+                  <div class="card h-100">
+                    <img src="imagem/pontoturistico.jpg" class="card-img-top" alt="Pontos turisticos">
+                    <div class="card-body">
+                      <h5 class="card-title">Pontos turisticos</h5>
+                      <p class="card-text">Não pode faltar um rolezinho não é mesmo? Vem vamos te mostrar os melhores lugares para tirar algumas fotinhas inesqueciveis.</p>
+                      <a href="./pontos-turisticos.html" class="btn btn-primary">Saiba mais!</a>
                     </div>
+                  </div>
                 </div>
             </div>
         </section>
