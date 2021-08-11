@@ -1,57 +1,269 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-    <title>Jornada Brasil</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title> Jornada Brasil</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Contrail+One&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <meta name="description" content="">
+
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="/docs/5.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/5.1/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/5.1/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/5.1/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+    <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#7952b3">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
 </head>
 
 <body>
 
+    <header>
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" style="color:rgb(114, 114, 114)">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Alterna navegação">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="./roteiro/imagem/jornadabrasil.png" href="?" alt="" width="100px" height="75px">
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <a class="navbar-brand" href="../index.html" style="color: black"></a>
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./roteiro/roteiro.html" style="color: black">Roteiros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./galeria/galeria.html" style="color: black">Galeria</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./estados/estados.html" style="color: black">Conheça +</a>
+                            </li>
 
-    <section class="contact " id="help ">
-        <div class="container ">
-            <h2></h2>
-            <h3></h3>
-            <div id="listHelp ">
-                <h3>
-                    <b>Testes dos botões</b>
-                </h3>
-                <p id="justify ">Lista de botões
-                </p>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                            <button class="btn btn btn-warning my-2 my-sm-0" type="submit" style="color: black">Pesquisar</button>
+                        </form>
+                    </div>
+            </nav>
+        </section>
+    </header>
 
-                <li><a href="./regiao/norte/norte.html"><span>Norte</span></a></li>
-                <li><a href="./regiao/sudeste/sudeste.html"><span>Sudeste</span></a></li>
-                <li><a href="./regiao/sul/sul.html"><span>Sul</span></a></li>
-                <li><a href="./galeria/galeria.html"><span>Galeria</span></a></li>
-                <li><a href="./roteiro/roteiro.html"><span>Roteiro</span></a></li>
-            </div>
-    </section>
+    <main>
+
+        <main role="main">
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
 
 
-    <footer>
-        <div class="container ">
-            <p>made with&nbsp;❤&nbsp;by grupo 3 - Gama Academy XP37 </p>
-        </div>
-    </footer>
-    <script type- "text/javascript ">
-        function linkToSection() {
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="./regiao/sul/imagem/slide/slide1-1.jpg" style="height: 300px; max-width: 150%" alt="First slide">
+                        <div class="container">
+                            <div class="carousel-caption text-left">
+                                <p></p>
+                                <p>
+                                    <a class=""></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-            window.location.href = "#help ";
-            e.preventDefault();
-            e.stopPropagation();
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./regiao/sul/imagem/slide/slide2-2.jpg" style="height: 300px; max-width: 150%" alt="Second slide">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <p>
+                                    <a class="" href="#"></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-        }
 
-        <
-        /body>
+                    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Voltar</span>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Avançar</span>
+                    </a>
+                </div>
 
-        <
-        /html>
+
+                <!-- Marketing messaging and featurettes
+  ================================================== -->
+                <!-- Wrap the rest of the page in another container to center all the content. -->
+
+                <div class="container marketing" style="padding:20px">
+
+                    <!-- Three columns of text below the carousel -->
+                    <div class="row ">
+                        <div class="col-lg-4 ">
+                            <h2>Hoteis</h2>
+                            <p>Aconchegue-se nas melhores hospedagens!</p>
+                            <p><a class="btn btn-secondary " href="./regiao/sul/hotel.html">View details &raquo;</a></p>
+                        </div>
+                        <!-- /.col-lg-4 -->
+                        <div class="col-lg-4 ">
+
+                            <h2>Restaurantes</h2>
+                            <p>Bateu a fome? Venha conhecer lugares que te deixaram com agua na boca</p>
+                            <p><a class="btn btn-secondary " href="./regiao/sul/restaurante.html">View details &raquo;</a></p>
+                        </div>
+                        <!-- /.col-lg-4 -->
+                        <div class="col-lg-4 ">
+                            <h2>Pontos turisticos</h2>
+                            <p>Bora para um rolezinho?! Clique para conhecer alguns lugares incriveis</p>
+                            <p><a class="btn btn-secondary " href="./regiao/sul/pontos-turisticos.html">View details &raquo;</a></p>
+                        </div>
+                        <!-- /.col-lg-4 -->
+                    </div>
+                    <!-- /.row -->
+
+
+                    <!-- START THE FEATURETTES -->
+
+                    <hr class="featurette-divider ">
+
+                    <div class="row featurette">
+                        <div class="col-md-7">
+                            <div style="font-family: 'Contrail One', cursive;">
+                                <a href="./estados/estados.html">
+                                    <h2 class="featurette-heading ">Venha conhecer a cultura do<span class="text-muted ">Brasil</span></h2>
+                                </a>
+                            </div>
+                            <div style="font-family: 'PT Serif', serif;">
+                                <p class="lead">E escolha seu proximo destino!!</p>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <img class="featurette-image img-fluid mx-auto" src="./regiao/sudeste/imagem/pontoturistico/pontoturistico1.jpg" alt="Generic placeholder image">
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /.container -->
+
+                <!-- FOOTER -->
+                <footer class="bg-dark text-center text-white ">
+                    <!-- Grid container -->
+                    <div class="container p-4 ">
+
+                        <!-- Section: Links -->
+                        <section class=" ">
+                            <!--Grid row-->
+                            <div class="row ">
+                                <!--Grid column-->
+                                <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
+                                    <ul class="list-unstyled mb-0 ">
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/victoriagcosta/ " class="text-white ">Victoria Gabriella - Dev Backend Jr</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--Grid column-->
+
+                                <!--Grid column-->
+                                <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
+                                    <ul class="list-unstyled mb-0 ">
+                                        <li>
+                                            <a href="https://www.instagram.com/srta.katsumi/ " class="text-white ">Contato</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--Grid column-->
+
+                                <!--Grid column-->
+                                <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
+                                    <ul class="list-unstyled mb-0 ">
+                                        <li>
+                                            <a href="#! " class="text-white ">Termos de uso</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--Grid column-->
+
+                                <!--Grid column-->
+                                <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
+                                    <ul class="list-unstyled mb-0 ">
+                                        <li>
+                                            <a href="#! " class="text-white ">Politica de privacidade</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--Grid column-->
+                            </div>
+                            <!--Grid row-->
+                        </section>
+                        <!-- Section: Links -->
+                    </div>
+                    <!-- Grid container -->
+
+                    <!-- Copyright -->
+                    <div class="text-center p-3 " style="background-color: rgba(0, 0, 0, 0.2); ">
+                        Jornada Brasil &copy; 2021. Todos os direitos reservados.
+                        <a class="text-white " href=" "></a>
+                    </div>
+                    <!-- Copyright -->
+                </footer>
+                <!-- Footer -->
+
+        </main>
+
+
+        <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj " crossorigin="anonymous "></script>
+
+
+</body>
+
+</html>
+
+</html>
