@@ -1,8 +1,8 @@
-# Regioes do brasil
-Página para o Desafio final, do Gama Academy, grupo 3
-
-<a href="https://srtakatsumi.github.io/regioes.github.io/">https://srtakatsumi.github.io/regioes.github.io</a>
 #  Jornada Brasil
+
+# Contexto
+
+- Projeto desenvolvido em grupo para a Gama Academy
 
 # Introdução
 
